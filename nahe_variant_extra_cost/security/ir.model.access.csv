@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_nahe_variant_extra_cost_nahe_variant_extra_cost,nahe_variant_extra_cost.nahe_variant_extra_cost,model_nahe_variant_extra_cost_nahe_variant_extra_cost,base.group_user,1,1,1,1

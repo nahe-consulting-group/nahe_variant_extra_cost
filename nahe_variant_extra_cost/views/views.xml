@@ -1,0 +1,36 @@
+<odoo>
+  <data>
+   <record model="ir.ui.view" id="product_product_standard_price_extra">
+      <field name="name">product.product.form.easy.nahe.inherit</field>
+      <field name="model">product.product</field>
+      <field name="inherit_id" ref="product.product_variant_easy_edit_view"/>
+      <field name="arch" type="xml">
+        <field name="standard_price" position="after">
+            <field name="standard_price_extra"/>
+        </field>
+      </field>
+    </record>
+     <record model="ir.ui.view" id="product_product_standard_price_extra_list">
+      <field name="name">product.product.list.nahe.inherit</field>
+      <field name="model">product.product</field>
+      <field name="inherit_id" ref="product.product_product_tree_view"/>
+      <field name="arch" type="xml">
+        <field name="standard_price" position="after">
+            <field name="standard_price_extra"/>
+        </field>
+      </field>
+    </record>
+    <record model="ir.ui.view" id="product_product_standard_price_extra_form">
+      <field name="name">product.product.form.normal.nahe.inherit</field>
+      <field name="model">product.product</field>
+      <field name="inherit_id" ref="product.product_normal_form_view"/>
+      <field name="arch" type="xml">
+        <field name="standard_price" position="after">
+            <field name="standard_price_extra"/>
+        </field>
+      </field>
+    </record>
+
+
+  </data>
+</odoo>
